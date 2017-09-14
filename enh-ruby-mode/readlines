@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: readlines
+# key: readlines
+# --
+ARGF[${1:0}..-1].each do |line|
+  $0
+end

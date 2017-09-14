@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: let-mock-model
+# key: letmm
+# --
+let(:$1) { mock_model(${1:$(upcase-initials yas-text)}) }

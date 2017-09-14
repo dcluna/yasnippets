@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: eteq
+# key: eteq
+# --
+expect(${1:object}).to eq(${2:value})

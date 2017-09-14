@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: specjseval
+# key: specjseval
+# --
+evaluate_script("${1:script}")

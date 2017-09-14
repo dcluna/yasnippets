@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: allow-object-to-receive
+# key: aotr
+# --
+allow(${1:object}).to receive(:${2:method}).and_return(${3:$2})

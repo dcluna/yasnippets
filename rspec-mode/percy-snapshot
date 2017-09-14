@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: percy-snapshot
+# key: percy
+# --
+Percy::Capybara.snapshot(page, name: '${1:page_name}')

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: file-base-name-sans-extension
+# key: fbnse
+# binding: direct-keybinding
+# --
+File.basename(${1:filename}, File.extname($1))

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: letb
+# key: letb
+# --
+let(:${1:var_here}) { build(:${2:$1}$0) }

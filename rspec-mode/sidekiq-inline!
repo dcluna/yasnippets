@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: sidekiq-inline!
+# key: skiq-in!
+# --
+Sidekiq::Testing.inline! do
+  $0
+end

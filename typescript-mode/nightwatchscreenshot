@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: nightwatchscreenshot
+# key: nwss
+# --
+${1:browser}.saveScreenshot('/tmp/${2:nightwatch}.png');

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: allow-any-instance-of-to-receive
+# key: aaiotr
+# --
+allow_any_instance_of(${1:klass}).to receive(${2:message}).and_return(${3:$2})

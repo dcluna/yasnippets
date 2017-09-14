@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expect-response-to-redirect-to
+# key: ertrd
+# --
+expect(${1:response}).to redirect_to(${2:resource_url(resources)})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: allow-object-to-receive-message-chain
+# key: aotrmc
+# --
+allow(${1:object}).to receive_message_chain(:${2:method}) { $0 }

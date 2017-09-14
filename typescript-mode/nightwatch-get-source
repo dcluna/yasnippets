@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: nightwatch-get-source
+# key: nwsrc
+# --
+${1:browser}.source(${2:function(src){
+  console.log("page src:\n" + src.value);
+}});

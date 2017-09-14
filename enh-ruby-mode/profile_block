@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: profile_block
+# key: rbprof
+# --
+profile_block(${1:'file_name'}) do
+  `yas-selected-text`$0
+end

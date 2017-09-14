@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: concern
+# key: concern
+# binding: direct-keybinding
+# --
+module ${1:ModuleName}
+  extend ActiveSupport::Concern
+  $0
+end

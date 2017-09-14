@@ -1,0 +1,4 @@
+# key: scop
+# name: scope
+# --
+scope :${1:scope_name}, -> (${2:args}) { $0 }

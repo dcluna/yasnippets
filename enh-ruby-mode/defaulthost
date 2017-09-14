@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: defaulthost
+# key: defaulthost
+# --
+Capybara.default_host = "http://${1:host.here}"

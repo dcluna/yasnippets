@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: letc
+# key: letc
+# --
+let(:${1:var_here}) { create(:${2:$1}$0) }

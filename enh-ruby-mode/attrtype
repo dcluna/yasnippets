@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: attrtype
+# key: attrtype
+# binding: direct-keybinding
+# --
+${1:Model}.columns_hash['${2:attr}']
