@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: express-typed-handler-function
+# key: xptfn
+# --
+function(${1:req}: Request, ${2:res}: Response, ${3:next}: NextFunction){
+  $0
+}

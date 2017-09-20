@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: nightwatch-page-object
+# key: nw-pg-obj
+# --
+export = {
+  url: function(){
+    return this.api.launchUrl + $0;
+  },
+  sections: {},
+  elements: {},
+  commands: [{
+  }]
+};

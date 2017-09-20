@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: nightwatch-element
+# key: nwel
+# --
+${1:element}: {
+  selector: '${2:selector}'
+}
