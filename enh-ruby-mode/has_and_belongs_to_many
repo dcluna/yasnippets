@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: has_and_belongs_to_many
+# key: habtm
+# --
+has_and_belongs_to_many :${1:model$(inflection-pluralize-string yas-text)}
