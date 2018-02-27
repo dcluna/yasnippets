@@ -1,0 +1,4 @@
+# key: i*
+# name: import-star-as
+# --
+import * as ${1:lib} from "${2:$1}";

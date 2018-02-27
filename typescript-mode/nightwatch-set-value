@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: nightwatch-set-value
+# key: nwsv
+# --
+${1:browser}.setValue("${2:selector}", "${3:value}");

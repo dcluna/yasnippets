@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: nightwatch-assert-title
+# key: nwatitle
+# --
+${1:browser}.getTitle(function(${2:title}) {
+  this.assert.equal($2, "${3:expected}");
+});

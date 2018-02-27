@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: import-curly-bracket
+# key: i{
+# --
+import { ${1:fn} } from "${2:lib}";

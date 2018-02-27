@@ -1,0 +1,6 @@
+# key: nwatxt
+# name: nightwatch-assert-text
+# --
+${1:browser}.getText("${2:selector}", function(res){
+  this.assert.equal(res.value, "${3:expected}");
+});

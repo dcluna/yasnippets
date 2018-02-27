@@ -2,4 +2,4 @@
 # name: nightwatchscreenshot
 # key: nwss
 # --
-${1:browser}.saveScreenshot('/tmp/${2:nightwatch}.png');
+${1:browser}.saveScreenshot("/tmp/${2:nightwatch}.png");
