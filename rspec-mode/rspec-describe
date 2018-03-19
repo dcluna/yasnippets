@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: rspec-describe
+# key: describe
+# --
+describe '${1:description}' do
+  $0
+end

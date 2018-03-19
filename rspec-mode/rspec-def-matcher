@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: rspec-def-matcher
+# key: defmatcher
+# --
+RSpec::Matchers.define :${1:matcher} do |${2:expected}|
+  match do |${3:actual}|
+    $0
+  end
+end

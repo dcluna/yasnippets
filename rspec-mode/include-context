@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: include-context
+# key: ictx
+# --
+include_context '${1:ctx}'
+$0

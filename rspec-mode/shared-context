@@ -1,0 +1,6 @@
+# key: shctx
+# name: shared-context
+# --
+RSpec.shared_context "${1:context}" do
+  $0
+end
