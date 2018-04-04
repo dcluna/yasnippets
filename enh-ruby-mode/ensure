@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: ensure
+# key: ensure
+# --
+begin
+  $0
+ensure
+end

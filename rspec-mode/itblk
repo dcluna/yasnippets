@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: itblk
+# key: it
+# --
+it '${1:does something}' do
+  $0
+end

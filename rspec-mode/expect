@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: expect
+# key: xpct
+# --
+expect(${1:object}).to $0

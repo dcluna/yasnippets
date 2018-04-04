@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: context
+# key: ctx
+# --
+context '${1:when some condition holds}' do
+  $0
+end

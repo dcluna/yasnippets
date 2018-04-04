@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: each-with-object
+# key: ewo
+# --
+${1:collection}.each_with_object(${2:obj}) do |${3:elem},${4:memo}|
+  $0
+end

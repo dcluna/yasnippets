@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: letattr
+# key: letattr
+# --
+let(:${1:model}) { attributes_for(:${2:$1}) }

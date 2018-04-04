@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: rubocop-disable
+# key: rcopdisable
+# --
+# rubocop:disable ${1:CopName}
