@@ -1,6 +1,8 @@
 # -*- mode: snippet -*-
 # contributor: Daniel Luna (Senior Software Engineer)
-# name: letattr
-# key: letattr
+# name: perform-enqueued-jobs
+# key: perfej
 # --
-let(:${1:model}_attrs) { attributes_for(:${2:$1}) }
+perform_enqueued_jobs do
+  $0
+end

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: expect-clause-change-count
+# key: chgct
+# --
+change(${1:Model}, :count).by(${2:1})

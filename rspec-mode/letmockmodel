@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: letmockmodel
+# key: letmm
+# --
+let(:${1:model}) { mock_model('${1:$(capitalize yas-text)}'$0) }

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: factory-bot-after-hook
+# key: fbafter
+# --
+after(:${1:build}) do |${2:`(or (ignore-errors (replace-regexp-in-string "_factory$" "" (file-name-base (buffer-file-name))) ) "model" )`},evaluator|
+  # create_list(:$2, evaluator.$2_count, user: user)
+  $0
+end

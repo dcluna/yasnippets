@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: passlist
+# key: passlist
+# --
+#+TBLNAME: passlist
+| url                    | username           | password             | extra | name   | grouping | fav |

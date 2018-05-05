@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: spacemacs-keymap
+# key: spckm
+# --
+(let ((${1:mode-keymap} (make-sparse-keymap)))
+  (define-key $1 "${2:k}" ${3:'elispfn})
+  (evil-leader/set-key (kbd "o ${4:p}") $1)
+  (spacemacs/declare-prefix "o $4" "${5:shortname}" "${6:longname}"))

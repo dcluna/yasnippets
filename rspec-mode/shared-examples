@@ -3,6 +3,6 @@
 # name: shared-examples
 # key: shex
 # --
-shared_examples '${1:example}' do |${2:params}|
+shared_examples '${1:example}' do
   $0
 end

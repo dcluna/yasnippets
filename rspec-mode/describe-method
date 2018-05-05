@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: describe-method
+# key: descm
+# --
+describe '#${1:method}' do
+  subject { ${2:outer_subject}.$1 }
+
+  it { is_expected.to $0 }
+end
