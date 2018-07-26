@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: inject
+# key: inj
+# --
+${1:collection}.inject(${2:starter}) do |${3:memo},${4:elem}|
+  $0
+end

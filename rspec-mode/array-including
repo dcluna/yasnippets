@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: array-including
+# key: arri
+# --
+array_including(
+  $0
+)

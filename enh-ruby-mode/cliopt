@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: cliopt
+# key: cliopt
+# --
+parser.on("${1:shortparam}", "${2:longparam}", "${3:description}") do |${4:value}|
+  $0
+end

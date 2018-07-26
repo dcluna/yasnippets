@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ar-transaction
+# key: transaction
+# --
+${1:ActiveRecord::Base}.transaction do
+  $0
+end

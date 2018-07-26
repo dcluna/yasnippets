@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fixture-read
+# key: fixtr
+# --
+File.read(Rails.root.join('spec', 'fixtures', '${1:extra_path}'))

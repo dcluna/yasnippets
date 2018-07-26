@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arrollback
+# key: arrollback
+# --
+raise ActiveRecord::Rollback

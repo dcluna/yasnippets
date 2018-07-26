@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: belongs-to
+# key: blto
+# --
+belongs_to :${1:assoc}, inverse_of: :${2:`(pluralize-string (or (ignore-errors (file-name-base buffer-file-name)) "inverse_model") )`}

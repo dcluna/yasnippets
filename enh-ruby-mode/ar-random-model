@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ar-random-model
+# key: arrandom
+# --
+${1:Model}.order('RANDOM()').first

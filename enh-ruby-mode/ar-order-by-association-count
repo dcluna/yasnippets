@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ar-order-by-association-count
+# key: arorderassc
+# --
+${1:Model}.joins(:${2:assoc}).group(:${3:id}).order('COUNT($2.$3) ${4:DESC}').${5:first}

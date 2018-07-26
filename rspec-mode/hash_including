@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: hash_including
+# key: hshi
+# --
+hash_including(
+  $0
+)

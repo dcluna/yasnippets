@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: subject-create-named
+# key: subjc
+# --
+subject(:${1:model}) { create(:${2:$1}) }

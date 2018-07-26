@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: factory-bot-trait
+# key: trait
+# --
+trait :${1:trait} do
+  $0
+end

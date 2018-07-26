@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: each-with-index
+# key: ewi
+# --
+${1:coll}.each_with_index do |${2:elem},${3:i}|
+  $0
+end

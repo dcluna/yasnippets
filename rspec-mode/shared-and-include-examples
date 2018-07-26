@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: shared-and-include-examples
+# key: shincex
+# --
+shared_examples '${1:example}' do
+  $0
+end
+
+include_examples '$1'

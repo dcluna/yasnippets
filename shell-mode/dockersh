@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: dockersh
+# key: dockersh
+# --
+docker exec -it ${1:container} /bin/sh
