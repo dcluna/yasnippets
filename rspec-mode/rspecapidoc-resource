@@ -1,0 +1,57 @@
+# key: rapidres
+# name: rspecapidoc-resource
+# --
+resource '${1:Resource}' do
+  explanation 'Endpoint for ${1:$(pluralize-string yas-text)}'
+
+  route '${1:$(s-snake-case (pluralize-string yas-text))}', '$1 collection endpoint' do
+    get 'Index $1' do
+      it 'Lists ${1:$(s-snake-case (pluralize-string yas-text))}' do
+        do_request
+
+        expect(json_response).to include(${1:$(s-snake-case yas-text)}_response)
+      end
+    end
+
+    post 'Create $1' do
+      let(:${1:$(s-snake-case yas-text)}_attrs) { attributes_for(:${1:$(s-snake-case yas-text)}) }
+      let(:raw_post) { { ${1:$(s-snake-case yas-text)}: ${1:$(s-snake-case yas-text)}_attrs }.to_json }
+
+      it 'creates a new ${1:$(s-snake-case yas-text)}' do
+        expect { do_request }.to change(${1:$(s-upper-camel-case yas-text)}, :count).by(1)
+        expect(json_response).to match(
+          hash_including(${1:$(s-snake-case yas-text)}_attrs)
+        )
+      end
+    end
+  end
+
+  route '${1:$(s-snake-case (pluralize-string yas-text))}/:${2:id}', '$1 member endpoint' do
+    get 'Show $1' do
+      it 'shows the ${1:$(s-snake-case yas-text)}' do
+        do_request
+
+        expect(json_response).to match(${1:$(s-snake-case yas-text)}_response)
+      end
+    end
+
+    put 'Update $1' do
+      let(:${1:$(s-snake-case yas-text)}_attrs) { attributes_for(:${1:$(s-snake-case yas-text)}) }
+      let(:raw_post) { { ${1:$(s-snake-case yas-text)}: ${1:$(s-snake-case yas-text)}_attrs }.to_json }
+
+      it 'updates the ${1:$(s-snake-case yas-text)}' do
+        do_request
+
+        expect(json_response).to match(
+          hash_including(${1:$(s-snake-case yas-text)}_attrs)
+        )
+      end
+    end
+
+    delete 'Delete $1' do
+      it 'deletes the ${1:$(s-snake-case yas-text)}' do
+        expect { do_request }.to change(${1:$(s-upper-camel-case yas-text)}, :count).by(-1)
+      end
+    end
+  end
+end

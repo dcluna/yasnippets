@@ -2,4 +2,4 @@
 # name: dockersh
 # key: dockersh
 # --
-docker exec -it ${1:container} /bin/sh
+docker exec -it ${1:$$(or (ignore-errors (current-kill 0)) "container")} /bin/sh

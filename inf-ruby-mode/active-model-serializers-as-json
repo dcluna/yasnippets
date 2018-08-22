@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: active-model-serializers-as-json
+# key: amsjson
+# --
+ActiveModelSerializers::SerializableResource.new(${1:obj}).as_json

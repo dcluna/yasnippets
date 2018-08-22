@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: each-with-object-count
+# key: ewocount
+# --
+${1:coll}.each_with_object({}) do |${2:elem},${3:memo}|
+  ${4:calculated_value} = ${5:complex_calculation()}
+  $3[$4] = $3.fetch($4, 0) + 1
+end

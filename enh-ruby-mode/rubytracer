@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rubytracer
+# key: rbtrace
+# --
+require 'tracer'; Tracer.stdout = File.open('/tmp/${1:tracer_output}.rb_trace', '${2:a}'); Tracer.on {
+  $0
+}

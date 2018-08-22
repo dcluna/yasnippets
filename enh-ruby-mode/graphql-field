@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: graphql-field
+# key: gqlfield
+# --
+field :${1:name}, ${2:Type}, null: ${3:$$(yas-choose-value '("false" "true"))}

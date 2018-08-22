@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rapidroute
+# key: rapidroute
+# --
+route '${1:route}', '${2:Route description}' do
+  $0
+end

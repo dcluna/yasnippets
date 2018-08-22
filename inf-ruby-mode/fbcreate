@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fbcreate
+# key: fbcreate
+# --
+${2:$1} = FactoryBot.create(:${1:entity})

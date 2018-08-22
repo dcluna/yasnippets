@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: expect-to-include
+# key: xpctinc
+# --
+expect(${1:object}).to include(
+  $0
+)

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: withtempfile
+# key: withtempfile
+# --
+Tempfile.open('${1:file}') do |${2:tf}|
+  $0
+end

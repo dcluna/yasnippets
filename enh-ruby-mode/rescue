@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: rescue
+# key: rescue
+# --
+begin
+  $0
+rescue ${1:StandardError} => ${2:e}
+end

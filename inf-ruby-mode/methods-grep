@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: methods-grep
+# key: mgrep
+# --
+${1:object}.methods.grep(/${2:query}/i)

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fetch
+# key: fetch
+# --
+${1:params}.fetch(:${2:key},'${3:default}')

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: dockerps
+# key: dockerps
+# --
+docker ps | grep -i ${1:image_alias}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rapidparam
+# key: rapidparam
+# --
+parameter :${1:param_name}, '${2:$1$(s-upper-camel-case yas-text)}'

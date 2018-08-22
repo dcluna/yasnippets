@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pryrescue
+# key: pryrescue
+# --
+Pry.rescue do
+  $0
+end

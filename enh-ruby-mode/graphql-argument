@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: graphql-argument
+# key: gqlarg
+# --
+argument :${1:arg}, ${2:Type}, required: ${3:$$(yas-choose-value '("false" "true"))}

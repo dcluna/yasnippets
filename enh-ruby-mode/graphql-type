@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: graphql-type
+# key: gqltype
+# --
+type ${1:Type}, null: ${2:$$(yas-choose-value '("false" "true"))}
