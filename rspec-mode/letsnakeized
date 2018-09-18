@@ -1,0 +1,4 @@
+# key: letsnk
+# name: letsnakeized
+# --
+let(:${1:object_method_calls}) { ${1:$(s-replace-all '(("_" . ".")) yas-text)} }

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ar-having-count-predicate
+# key: arcountpredicate
+# --
+${1:Model}.joins(:${2:assoc$(inflection-pluralize-string yas-text)}).group('${2:$(inflection-pluralize-string yas-text)}.id').having('count(${2:$(inflection-singularize-string yas-text)}_id) > ${3:1}')

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: find-users-by-email
+# key: usersbyemail
+# --
+${1:user} = ${2:User}.all.select { |u| u.email =~ /${3:email}/ }${4:.first}

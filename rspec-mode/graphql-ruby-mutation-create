@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: graphql-ruby-mutation-create
+# key: gqlrbmutcr
+# --
+mutation {
+  create${1:Entity}(input: {
+
+  }) {
+    ${2:$1$$(s-lower-camel-case yas-text)} {
+
+    }
+    errors
+  }
+}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-model-attributes
+# key: railsmattr
+# --
+${1:Model}.attribute_types

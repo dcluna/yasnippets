@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ruby-prof-region
+# key: rbprof
+# --
+require 'ruby-prof'; RubyProf::MultiPrinter.new(RubyProf.profile {
+  $0
+}).print(path: '${1:/tmp}', profile: '${2:ruby-prof.txt}')

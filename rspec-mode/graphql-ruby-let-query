@@ -1,9 +1,8 @@
-# -*- mode: snippet -*-
-# name: graphql-ruby-let-query
 # key: gqlrbqry
+# name: graphql-ruby-let-query
 # --
 let(:${1:query}) do
-  <<~${2:GRAPHQL}
-$0
+<<~${2:GRAPHQL}
+  $0
 $2
 end

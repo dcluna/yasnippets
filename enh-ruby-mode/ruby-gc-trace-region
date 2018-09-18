@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ruby-gc-trace-region
+# key: gctrace
+# --
+require 'gc_tracer'; GC::Tracer.start_logging(gc_stat: ${1:true}, gc_latest_gc_info: ${2:true}, rusage: ${3:true}) {
+  $0
+}

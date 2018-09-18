@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ruby-benchmark
+# key: benchmark
+# --
+Benchmark.${1:$$(yas-choose-value '("measure" "realtime"))} {
+  $0
+}

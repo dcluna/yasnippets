@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ruby-benchmark-multi
+# key: benchmarkbm
+# --
+Benchmark.bm(${1:10}) do |${2:x}|
+  $2.report('${3:calculation}:') { $0 }
+end

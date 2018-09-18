@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rspec-a-string-starting_with
+# key: rspecastringstartingwith
+# --
+a_string_starting_with($0)

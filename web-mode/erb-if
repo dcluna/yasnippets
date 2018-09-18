@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: erb-if
+# key: erbif
+# --
+<% if ${1:condition} %>
+  $0
+<% else %>
+<% end %>

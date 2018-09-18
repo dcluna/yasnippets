@@ -1,0 +1,4 @@
+# key: gqlrbkv
+# name: graphql-ruby-key-value
+# --
+${1:$0}: #{${2:source_entity}.$1}

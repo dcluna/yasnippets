@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: it-behaves-like
+# key: ibl
+# --
+it_behaves_like '${1:context}' do
+  $0
+end

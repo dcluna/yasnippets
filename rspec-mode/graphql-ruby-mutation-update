@@ -1,0 +1,13 @@
+# key: gqlrbmutupdt
+# name: graphql-ruby-mutation-update
+# --
+mutation {
+  update${1:Entity}(input: {
+    id: #{${3:$1$$(s-snake-case yas-text)}.id}
+  }) {
+    ${2:$1$$(s-lower-camel-case yas-text)} {
+
+    }
+    errors
+  }
+}

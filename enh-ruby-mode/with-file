@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: with-file
+# key: withfile
+# --
+File.open(${1:file},'${2:$$(yas-choose-value '("a" "r" "w"))}') do |${3:f}|
+$0
+end

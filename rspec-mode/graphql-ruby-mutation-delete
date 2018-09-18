@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: graphql-ruby-mutation-delete
+# key: gqlrbmutdel
+# --
+mutation {
+  delete${1:Entity}(input: {
+    id: #{${2:$1$$(s-snake-case yas-text)}.id}
+  })
+  { success }
+}

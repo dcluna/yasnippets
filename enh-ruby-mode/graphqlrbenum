@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: graphqlrbenum
+# key: gqlrbenum
+# --
+value '${1:$$(upcase yas-text)}', "${2:description}"

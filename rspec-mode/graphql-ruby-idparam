@@ -1,0 +1,4 @@
+# key: gqlrbidparam
+# name: graphql-ruby-idparam
+# --
+${1:model_name$$(s-lower-camel-case yas-text)}Id: #{${2:$1$$(s-snake-case yas-text)}.id}
