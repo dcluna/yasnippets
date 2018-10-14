@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: jointhreads
+# key: jointhreads
+# --
+Thread.list.each { |${1:t}| $1.join unless $1 == Thread.current }

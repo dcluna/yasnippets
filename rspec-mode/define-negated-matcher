@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: define-negated-matcher
+# key: define-negated-matcher
+# --
+RSpec::Matchers.define_negated_matcher :${1:negated_matcher}, :${2:original_matcher}

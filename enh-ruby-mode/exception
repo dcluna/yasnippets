@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: exception
+# key: excp
+# --
+class ${1:Something}Error < ${2:StandardError}; end

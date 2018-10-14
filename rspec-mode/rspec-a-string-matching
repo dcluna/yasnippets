@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rspec-a-string-matching
+# key: astrmatch
+# --
+a_string_matching($0)

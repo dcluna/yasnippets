@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-html-escape
+# key: rails-html-escape
+# --
+ERB::Util.html_escape($0)

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rspec-example
+# key: example
+# --
+example '${1:description}' do
+  $0
+end

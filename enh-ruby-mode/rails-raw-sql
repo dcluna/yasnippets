@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-raw-sql
+# key: rails-raw-sql
+# --
+ActiveRecord::Base.connection.execute("${1:sql}")
