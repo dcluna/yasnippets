@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cdocker
+# key: dcd
+# --
+cd /docker:${1:root}@${2:$$(get-register ?d)}:

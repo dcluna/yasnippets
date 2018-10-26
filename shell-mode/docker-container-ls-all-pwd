@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: docker-container-ls-all-pwd
+# key: dclsapwd
+# --
+docker container ls -a | grep -i $(basename $(pwd))

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: empty-var
+# key: emptyvar
+# --
+if [ -z "$${1:var}" ]; then
+  $0
+fi

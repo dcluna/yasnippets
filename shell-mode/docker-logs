@@ -1,0 +1,4 @@
+# key: dlogs
+# name: docker-logs
+# --
+docker logs ${1:$$(ignore-errors (get-register ?l))}

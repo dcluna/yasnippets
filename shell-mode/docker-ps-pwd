@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: docker-ps-pwd
+# key: dpspwd
+# --
+docker ps | grep -i $(basename $(pwd))

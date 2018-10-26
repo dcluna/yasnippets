@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: docker-compose-run
+# key: dcrun
+# --
+docker-compose run -e PAGER=/bin/cat ${1:$$(yas-choose-value (ignore-errors (s-split "\n" (shell-command-to-string "docker-compose config --services 2>>/dev/null") t)))} ${2:/bin/sh}

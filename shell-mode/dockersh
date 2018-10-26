@@ -2,4 +2,4 @@
 # name: dockersh
 # key: dockersh
 # --
-docker exec -it ${1:$$(or (ignore-errors (current-kill 0)) "container")} /bin/sh
+docker exec -e PAGER=/bin/cat -it ${1:$$(get-register ?d)} ${2:/bin/sh}
