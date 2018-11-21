@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-3-where-not
+# key: rails3wherenot
+# --
+${1:ModelKlass}.where($1.arel_table[:${2:table_column}].not_eq(${3:value}))

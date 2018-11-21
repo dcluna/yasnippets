@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: it_is_expected_to_with_description
+# key: itetd
+# --
+it('${1:does something smart}') { is_expected.to $0 }

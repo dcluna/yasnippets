@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fetch-from-var
+# key: fetchfromvar
+# --
+$0.fetch('${1:something}', ${2:default_value})

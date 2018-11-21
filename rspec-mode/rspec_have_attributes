@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rspec_have_attributes
+# key: hvattr
+# --
+have_attributes(
+  $0
+)

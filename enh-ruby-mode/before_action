@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: before_action
+# key: before_action
+# --
+before_action :${1:action_name}, ${2:$$(yas-choose-value (list "only" "except"))}: [:${3:update}]

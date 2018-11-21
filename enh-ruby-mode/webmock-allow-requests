@@ -1,0 +1,4 @@
+# key: wbmockallow
+# name: webmock-allow-requests
+# --
+WebMock.disable_net_connect!(allow: [%r{${1:website}}])

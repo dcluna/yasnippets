@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: partition
+# key: partition
+# --
+${3:truthy}, ${4:falsey} = ${1:coll}.partition { |${2:elem}| }

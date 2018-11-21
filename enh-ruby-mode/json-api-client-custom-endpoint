@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: json-api-client-custom-endpoint
+# key: jaccustomep
+# --
+custom_endpoint :${1:endpoint}, on: :${2:$$(yas-choose-value (list "member" "collection"))}, request_method: :${3:$$(yas-choose-value (list "get" "put" "patch" "delete"))}

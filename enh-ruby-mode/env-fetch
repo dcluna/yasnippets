@@ -1,0 +1,4 @@
+# key: envf
+# name: env-fetch
+# --
+${1:ENV}.fetch('${2:something}', $0)
