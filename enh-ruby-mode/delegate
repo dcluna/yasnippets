@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: delegate
+# key: dlg
+# --
+delegate :${1:method}, to: :${2:object}, allow_nil: ${3:$$(yas-choose-value '("false" "true"))}

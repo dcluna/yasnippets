@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: has_one_custom_scope
+# key: honecs
+# --
+has_one :${1:assoc}, -> { where(${2:conditions}) }

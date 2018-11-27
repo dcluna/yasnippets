@@ -3,6 +3,6 @@
 # name: context
 # key: ctx
 # --
-context '${1:when some condition holds}' do
+context "${1:when some condition holds}" do
   $0
 end

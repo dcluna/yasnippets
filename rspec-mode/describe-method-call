@@ -1,0 +1,6 @@
+# key: descall
+# name: describe-method-call
+# --
+describe "#${1:method}" do
+  subject(:${2:$1_call}) { ->() { ${3:object}.$1 } }
+end

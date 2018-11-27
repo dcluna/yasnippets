@@ -4,7 +4,7 @@
 # key: descm
 # --
 describe '#${1:method}' do
-  subject { ${2:outer_subject}.$1 }
+  subject(:${3:$1}) { ${2:outer_subject}.$1 }
 
   it { is_expected.to $0 }
 end

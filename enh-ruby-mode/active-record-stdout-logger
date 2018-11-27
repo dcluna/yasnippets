@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: active-record-stdout-logger
+# key: arstdout
+# --
+ActiveRecord::Base.logger = Logger.new(${1:STDOUT})

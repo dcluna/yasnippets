@@ -3,6 +3,6 @@
 # name: rspec-describe
 # key: describe
 # --
-describe '${1:description}' do
+describe "${1:description}" do
   $0
 end
