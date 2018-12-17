@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: webmock-stub-request
+# key: webmocksr
+# --
+stub_request(:${1:$$(yas-choose-value '("get" "post" "put" "delete"))}, "http://${2:url}").
+  with(
+    body: "${3:request_body}",
+    headers: {}).
+  to_return(status: ${4:status_code}, body: "${5:response_body}", headers: {})

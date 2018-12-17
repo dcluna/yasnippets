@@ -2,4 +2,4 @@
 # name: allow-object-to-receive
 # key: aotr
 # --
-allow(${1:object}).to receive(:${2:method}).and_return(${3:$2})
+${1:$$(yas-choose-value '("allow" "allow_any_instance_of"))}(${2:object}).to ${3:$$(yas-choose-value '("receive" "receive_message_chain"))}(${4::method}).and_${5:$$(yas-choose-value '("return" "raise"))}(${6:$4$$(s-chop-prefix ":" yas-text)})

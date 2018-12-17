@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: faraday-request
+# key: faradayreq
+# --
+${1:response} = Faraday.${2:$$(yas-choose-value '("get" "post" "put" "delete"))}("${3:url}") do |${4:conn}|
+  # $4.params['${5:some_param}'] =
+  # $4.params['${6:some_header}'] =
+  $0
+end
