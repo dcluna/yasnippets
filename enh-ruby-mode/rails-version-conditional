@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: rails-version-conditional
+# key: rverc
+# --
+if Rails::VERSION::${1:MAJOR} >= ${2:4}
+  $0
+else
+end

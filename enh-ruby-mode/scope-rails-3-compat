@@ -1,0 +1,8 @@
+# key: scoprc
+# name: scope-rails-3-compat
+# --
+if Rails::VERSION::MAJOR >= 4
+  scope :${1:scope_name}, -> { where(${2:$0}) }
+else
+  scope :$1, conditions: { $2 }
+end

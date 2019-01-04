@@ -1,0 +1,8 @@
+# key: honerc
+# name: has-one-rails-3-compat
+# --
+if Rails::VERSION::MAJOR >= 4
+  has_one :${1:assoc}, -> { where(${2:$0}) }
+else
+  has_one :$1, conditions: { $2 }
+end
