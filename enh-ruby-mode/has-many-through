@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: has-many-through
+# key: hmanyt
+# --
+has_many :${1:assoc}, through: :${2:through_table}

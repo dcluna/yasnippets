@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: has-one-through
+# key: honet
+# --
+has_one :${1:assoc}, through: :${2:through_table}

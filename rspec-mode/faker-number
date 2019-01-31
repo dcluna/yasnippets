@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-number
+# key: fknumber
+# --
+Faker::Number${2:$$(if (equal "unique" (yas-choose-value '("unique" "nonunique"))) ".unique")}.number(${1:3})
