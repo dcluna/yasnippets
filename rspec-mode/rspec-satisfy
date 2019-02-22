@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rspec-satisfy
+# key: stfy
+# --
+${1:$$(yas-choose-value '("satisfy" "an_object_satisfying"))} { |${2:obj}| $0 }

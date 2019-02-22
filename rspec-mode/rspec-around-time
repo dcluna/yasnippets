@@ -1,0 +1,6 @@
+# key: aroundtime
+# name: rspec-around-time
+# --
+around do |${1:example}|
+  Timecop.freeze(${2:timestamp}){ $1.run }
+end

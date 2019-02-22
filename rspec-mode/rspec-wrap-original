@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rspec-wrap-original
+# key: wrap_original
+# --
+${1:$$(yas-choose-value '("allow" "allow_any_instance_of" "expect" "expect_any_instance_of"))}(${2:object}).to ${3:$$(yas-choose-value '("receive" "receive_message_chain"))}(${4::method}).and_wrap_original do |${5:m}, ${6:*args}|
+  $0
+end
