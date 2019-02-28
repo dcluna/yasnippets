@@ -1,4 +1,4 @@
-# key: gqlrbqry
+# key: letgql
 # name: graphql-ruby-let-query
 # --
 let(:${1:query}) do
