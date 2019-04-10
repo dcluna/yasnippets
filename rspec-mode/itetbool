@@ -2,4 +2,4 @@
 # name: itetbool
 # key: itetb
 # --
-it { is_expected.to ${1:$$(yas-choose-value (list "be_falsey" "be_truthy" "be_nil"))} }
+it { is_expected.to ${1:$$(yas-choose-value (list "be_falsey" "be_truthy" "be_nil" "eq(true)" "eq(false)"))} }

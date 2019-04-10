@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rspec-be-within
+# key: bewithin
+# --
+be_within(${1:amt}).of($0)

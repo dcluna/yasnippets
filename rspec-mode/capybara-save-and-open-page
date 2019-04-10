@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: capybara-save-and-open-page
+# key: saopage
+# --
+save_and_open_page

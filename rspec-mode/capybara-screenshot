@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: capybara-screenshot
+# key: sshot
+# --
+${1:page}.save_screenshot '${2:screenshot}.png'

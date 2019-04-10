@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: enumerator
+# key: enumerator
+# --
+Enumerator.new do |${1:yielder}|
+  $0
+end
