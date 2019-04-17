@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: capybara-within
+# key: within
+# --
+within('${1:selector}') do
+  $0
+end

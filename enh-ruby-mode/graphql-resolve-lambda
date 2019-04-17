@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: graphql-resolve-lambda
+# key: gqlresolvel
+# --
+resolve ->(${1:obj}, ${2:args}, ${3:ctx}) {
+  $0
+}

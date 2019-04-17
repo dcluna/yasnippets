@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: webmock-remove-request-stub
+# key: webmockrrs
+# --
+remove_request_stub($0)

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Daniel Luna (Senior Software Engineer)
+# name: let-list
+# key: letl
+# --
+let(:${1:$(inflection-pluralize-string yas-text)}) { ${3:$$(yas-choose-value '("create" "build"))}_list(:${1:model}, ${2:2}$0) }

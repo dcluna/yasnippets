@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: graphql-runtime-error
+# key: gql-error
+# --
+raise GraphQL::ExecutionError, "${1:message}"
