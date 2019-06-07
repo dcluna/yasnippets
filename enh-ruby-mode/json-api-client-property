@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: json-api-client-property
+# key: jsapiprop
+# --
+property :${1:prop_name}, type: :${2:type}, default: ${3:default_val}

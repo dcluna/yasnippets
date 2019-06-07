@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: arel-create-join
+# key: areljoin
+# --
+${1:arel_table_one}.create_join(
+  ${2:arel_table_two},
+  $1.create_on(
+    $0
+  ),
+  ${4:$$(yas-choose-value '("Arel::Nodes::InnerJoin" "Arel::Nodes::OuterJoin"))}
+)

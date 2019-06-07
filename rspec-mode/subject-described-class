@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: subject-described-class
+# key: subjdc
+# --
+subject(:${1:$$(s-replace "_spec" "" (s-snake-case (file-name-base (or (buffer-file-name) ""))) )}) { ${2:described_class}.new(${3:params}) }

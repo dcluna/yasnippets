@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: with-lock
+# key: withlock
+# --
+${1:object}.with_lock do
+  $0
+end

@@ -2,6 +2,6 @@
 # name: sidekiq-inline!
 # key: skiq-in!
 # --
-Sidekiq::Testing.inline! do
+Sidekiq::Testing.inline! {
   $0
-end
+}

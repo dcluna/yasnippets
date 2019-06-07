@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arel-named-function
+# key: arelnf
+# --
+${1:function} = Arel::Nodes::NamedFunction.new("${2:$1$(upcase yas-text)}", [$0])

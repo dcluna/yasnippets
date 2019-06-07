@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: defmemoized
+# key: defm
+# --
+def ${1:method}
+  @$1 ||= $0
+end

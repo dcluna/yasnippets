@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arel-sql-literal
+# key: arelsql
+# --
+Arel::Nodes::SqlLiteral.new($0)

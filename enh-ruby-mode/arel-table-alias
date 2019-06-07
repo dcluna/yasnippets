@@ -1,0 +1,8 @@
+# key: areltablealias
+# name: arel-table-alias
+# --
+${1:table_alias} = ${2:Model}.arel_table.create_table_alias(
+  ${3:arel_query},
+  '${4:alias_name}'
+)
+${5:$2}.from($1)

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-number-between
+# key: fknumberbetween
+# --
+Faker::Number.between(${1:from}, ${2:to})
