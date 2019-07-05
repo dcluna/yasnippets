@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: flipperstub
+# key: flipperstub
+# --
+allow(Flipper).to receive(:[]).with(
+  :${1:flipper_flag}
+).and_return(
+  double(
+    '${2:FlipperResponse}',
+    enabled?: ${3:$$(yas-choose-value '("true" "false"))}
+  )
+)

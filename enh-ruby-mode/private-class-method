@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: private-class-method
+# key: pcm
+# --
+private_class_method $0

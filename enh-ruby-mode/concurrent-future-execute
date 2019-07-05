@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: concurrent-future-execute
+# key: cfexec
+# --
+Concurrent::Future.execute {
+  $0
+}

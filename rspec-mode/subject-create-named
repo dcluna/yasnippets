@@ -2,4 +2,4 @@
 # name: subject-create-named
 # key: subjc
 # --
-subject(:${1:model}) { create(:${2:$1}) }
+subject(:${1:$$(projectile-rails-current-resource-name)}) { create(:${2:$1}) }
