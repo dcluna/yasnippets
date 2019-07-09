@@ -1,0 +1,13 @@
+# key: rscope
+# name: rspec-scope
+# --
+it {
+  is_expected.to include(
+    $0
+  )
+}
+
+it {
+  is_expected.not_to include(
+  )
+}
