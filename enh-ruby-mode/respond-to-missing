@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: respond-to-missing
+# key: respondtomissing
+# --
+def respond_to_missing?(name, include_private = ${2:$$(yas-choose-value '("false" "true"))})
+  ${1:delegated}.respond_to?(name, include_private)
+end
