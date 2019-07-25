@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: sidekiq-testing
+# key: skqt
+# --
+Sidekiq::Testing.${1:$$(yas-choose-value '("fake" "inline" "disable") ) }$! {
+  $0
+}
