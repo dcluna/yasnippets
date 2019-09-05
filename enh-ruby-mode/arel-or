@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arel-or
+# key: arelor
+# --
+Arel::Nodes::Or.new($0)

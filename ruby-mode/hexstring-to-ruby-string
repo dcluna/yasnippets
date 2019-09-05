@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hexstring-to-ruby-string
+# key: hex2rb
+# --
+["${1:hexstring}"].pack("H*")

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: send
+# key: send
+# --
+send(:$0)

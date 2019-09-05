@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dir-chdir
+# key: chdir
+# --
+Dir::chdir('${1:newdir}') do
+  $0
+end

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: science ... end
+# key: science
+# --
+science "${1:experiment}" do |${2:e}|
+  $2.context ${3:user}: ${4:$3}
+
+  $2.use { }
+  $2.try { }
+end

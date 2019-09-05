@@ -1,0 +1,6 @@
+# key: specblk
+# name: rspec-block-on-key
+# --
+${1:config}.${2:$$(yas-choose-value '("before" "around" "after"))}(:each, ${3:key}: true) do ${4:$$(if (equal "around" (yas-field-value 2)) "|example|")}
+  $0
+end

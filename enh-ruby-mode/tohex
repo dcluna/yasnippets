@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tohex
+# key: tohex
+# --
+${1:str}.each_byte.map { |b| b.to_s(${2:16}) }.join

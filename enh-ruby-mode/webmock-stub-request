@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: webmock-stub-request
-# key: webmocksr
+# key: wmsr
 # --
 stub_request(:${1:$$(yas-choose-value '("get" "post" "put" "delete"))}, "http://${2:url}").
   with(

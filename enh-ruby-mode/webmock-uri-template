@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: webmock-uri-template
+# key: wmuri
+# --
+Addressable::Template.new($0)

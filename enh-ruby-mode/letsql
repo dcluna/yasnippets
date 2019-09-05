@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: letsql
+# key: letsql
+# --
+let(:${1:expected_sql}) do
+<<~${2:SQL}
+  $0
+$2
+end

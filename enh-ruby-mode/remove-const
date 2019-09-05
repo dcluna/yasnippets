@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: remove-const
+# key: rmconst
+# --
+Object.send(:remove_const, :${1:Const})

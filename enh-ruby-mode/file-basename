@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: file-basename
+# key: basename
+# --
+File.basename($0,'.${1:ext}')

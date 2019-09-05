@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: nocov
+# key: nocov
+# --
+# :${1:nocov}:
+$0
+# :$1:

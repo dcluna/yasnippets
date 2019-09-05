@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bundle-exec-rails-c
+# key: berc
+# --
+bundle exec rails c

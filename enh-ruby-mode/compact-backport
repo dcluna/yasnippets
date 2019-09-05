@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: compact-backport
+# key: compactbp
+# --
+${1:hash}.reject {|_k, ${2:v}| $2 == nil}
