@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: github-pr-draft
+# key: draft
+# --
+---
+title: ${1:title}
+draft: true
+---
