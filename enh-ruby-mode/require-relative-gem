@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: require-relative-gem
+# key: rrgem
+# --
+File.join(Bundler.rubygems.find_name('${1:gem}').first.full_gem_path, '$0')

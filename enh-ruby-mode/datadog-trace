@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Datadog.tracer.trace do ... end
+# key: ddgtrace
+# --
+${1:Datadog}.tracer.trace("${2:tracename}") {
+  $0
+}
