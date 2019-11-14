@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: heredoc
+# key: hd
+# --
+<<~END_OF_${1:DOC}
+END_OF_$1
