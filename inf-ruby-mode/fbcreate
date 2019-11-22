@@ -2,4 +2,4 @@
 # name: fbcreate
 # key: fbcreate
 # --
-${2:$1} = FactoryBot.create(:${1:entity})
+${3:entity} = ${1:$$(yas-choose-value "FactoryBot" "Fabricate")}.${2:$$(yas-choose-value "create" "build")}(:${4:$3})
