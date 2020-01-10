@@ -1,0 +1,4 @@
+# key: arcb
+# name: active-record-callback
+# --
+${1:$$(yas-choose-value "after" "before")}_${2:$$(yas-choose-value "save" "create" "destroy" "update" "validation" "commit" "rollback")}

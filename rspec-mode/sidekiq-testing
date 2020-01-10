@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
 # name: sidekiq-testing
 # key: skqt
+# expand-env: ((yas-indent-line 'auto) (yas-wrap-around-region t))
 # --
-Sidekiq::Testing.${1:$$(yas-choose-value '("fake" "inline" "disable") ) }$! {
+Sidekiq::Testing.${1:$$(yas-choose-value '("fake" "inline" "disable") )}! {
   $0
 }
