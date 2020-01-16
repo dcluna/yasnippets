@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: copy-to-csv
+# key: csvcp
+# expand-env: ((yas-wrap-around-region t))
+# --
+COPY ($0) TO '${1:/path/to/file}' DELIMITER '${2:,}' CSV HEADER;
