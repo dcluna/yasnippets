@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: csv-foreach
+# key: csvfe
+# --
+CSV.foreach('${1:filename}') do |${2:row}|
+end
