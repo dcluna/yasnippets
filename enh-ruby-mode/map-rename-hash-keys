@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: map-rename-hash-keys
+# key: hashrename
+# --
+${1:hash}.keys.each { |k| $1[ ${2:old_to_new_key_mappings}[k] ] = $1.delete(k) if $2[k] }
