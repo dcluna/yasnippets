@@ -1,0 +1,4 @@
+# key: createsu
+# name: createsuperuser
+# --
+CREATE ROLE ${1:user} SUPERUSER LOGIN;

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: csv-export-hash
+# key: csvexporthash
+# --
+CSV.open("${1:filename}.csv", "wb", { headers: ${2:map}.first.keys } ) do |csv|
+  $2.each do |${3:kv}|
+    csv << $3
+  end
+end
