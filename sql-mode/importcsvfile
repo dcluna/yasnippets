@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: importcsvfile
+# key: importcsv
+# --
+COPY ${1:table}(${2:field})
+FROM '${3:/path}' DELIMITER '${4:,}' CSV HEADER;

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: add-to-load-path
+# key: lpp
+# --
+(add-to-list 'load-path "${1:/path/to/directory}")

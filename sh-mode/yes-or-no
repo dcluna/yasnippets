@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: yes-or-no
+# key: yesornop
+# --
+read -p "${1:Are you sure?} " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  $0
+fi

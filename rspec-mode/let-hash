@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: let-hash
+# key: leth
+# --
+let(:${1:var}) { { ${2:key}: ${3:$2} } }

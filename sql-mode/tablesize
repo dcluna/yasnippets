@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tablesize
+# key: tbsize
+# --
+SELECT pg_size_pretty( pg_total_relation_size('${1:table}') );

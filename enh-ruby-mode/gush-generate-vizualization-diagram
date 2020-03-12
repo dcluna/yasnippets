@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: gush-generate-vizualization-diagram
+# key: gushviz
+# --
+${2:graph} = Gush::Graph.new(${1:workflow})
+$2.viz
+puts $2.path

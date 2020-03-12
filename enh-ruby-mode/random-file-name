@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: random-file-name
+# key: randomfn
+# --
+Dir::Tmpname.create(['${1:prefix-}', '.${2:ext}'], '${3:/tmp}') { |${4:path}|
+  $0
+}

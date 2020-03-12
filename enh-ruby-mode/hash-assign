@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hash-assign
+# key: h=
+# --
+${1:hash}[:${2:local}] = ${3:$2}
