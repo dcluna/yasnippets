@@ -1,0 +1,4 @@
+# key: utsparse
+# name: parseunixtimestamp
+# --
+DateTime.strptime('${1:unixts}','%s')

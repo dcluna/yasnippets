@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rake-task-invoke
+# key: raketi
+# --
+Rake::Task['${1:task:name}'].invoke

@@ -1,0 +1,4 @@
+# key: failerror
+# name: failerror
+# --
+set -eo pipefail

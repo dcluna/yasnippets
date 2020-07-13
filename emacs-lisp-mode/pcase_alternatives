@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pcase_alternatives
+# key: pcaseal
+# --
+(pcase (${1:alternatives}) (${2:a1} ${3:r1}))

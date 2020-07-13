@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: option-parser-header
+# key: opheader
+# --
+require 'optparse'
+
+${1:options} = {}
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: ${2:script.rb} [options]"
+end.parse!

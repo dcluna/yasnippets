@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: option-parser-help
+# key: ophelp
+# --
+${1:opt_parser}.on_tail("-${2:$(substring-no-properties yas-text 0 1)}", "--${2:help}", "Show this message") do
+  puts opt_parser
+  exit
+end

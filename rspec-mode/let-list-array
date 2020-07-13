@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: let-list-array
+# key: letla
+# --
+let(:${1:$(inflection-pluralize-string yas-text)}) {
+  Array.new(${2:2}) do
+    ${3:$$(yas-choose-value '("create" "build"))}(:${1:model} $0)
+  end
+}

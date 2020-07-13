@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: rspec-custom-matcher
+# key: rspecmatcher
+# --
+RSpec::Matchers.define :${1:be_something} do |${2:expected}|
+  match do |${3:actual}|
+    $0
+  end
+  failure_message do |$3|
+    "expected #{$2}, got #{$3}"
+  end
+end

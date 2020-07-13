@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: struct
+# key: struct
+# --
+${1:Something} = Struct.new(${2::attr}${3:$$(pcase (yas-choose-value "positional" "keyword") ("positional" "") ("keyword" ", keyword_init: true"))}) do
+  $0
+end

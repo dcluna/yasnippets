@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-root-join
+# key: rrj
+# --
+Rails.root.join('$0')

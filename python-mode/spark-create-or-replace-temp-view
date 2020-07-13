@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: spark-create-or-replace-temp-view
+# key: sparkcrtv
+# --
+${1:df}.createOrReplaceTempView("${2:table}")

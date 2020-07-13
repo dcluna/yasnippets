@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-expected-sql
+# key: xpctsql
+# --
+expect_any_instance_of(ActiveRecord::ConnectionAdapters::AbstractAdapter).to receive(:exec_${1:$$(yas-choose-value "query" "update" "insert" "delete")}).with(${2:expected_sql})

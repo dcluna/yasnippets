@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: include-validations-module
+# key: validations
+# --
+include ActiveModel::Validations

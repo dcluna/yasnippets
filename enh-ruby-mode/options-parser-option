@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: options-parser-option
+# key: opop
+# --
+${1:opts}.on("-${2:$(substring-no-properties yas-text 0 1)}", "--${2:option}${4:$(when (s-presence yas-text) (format " [%s]" (upcase (s-replace ", " "" yas-text))))}", ${4:`(awhen (s-presence (read-string "Cast to class: ")) (concat it ", "))`}"${3:Docstring}") do |${5:$2}|
+  $0
+end

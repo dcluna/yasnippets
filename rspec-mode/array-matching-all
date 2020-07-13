@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: array-matching-all
+# key: ama
+# --
+all(
+  match(
+    $0
+  )
+)

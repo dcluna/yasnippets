@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: join-scopes
+# key: jscop
+# --
+${1:table}.joins(:${2:$(inflection-pluralize-string yas-text)}).merge(${2:otable}_scope)

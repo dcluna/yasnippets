@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: rawcsvtohashlist
+# key: csvthl
+# --
+${1:csv} = <<~CSV
+  $0
+CSV
+
+CSV.parse($1, headers: true).map(&:to_hash)

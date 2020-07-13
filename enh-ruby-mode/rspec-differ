@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rspec-differ
+# key: differ
+# --
+${1:differ} = RSpec::Expectations.differ
+
+$1.diff_as_object(${2:actual}, ${3:expected})

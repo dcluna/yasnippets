@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: shtrace
+# key: shtrace
+# --
+set -o xtrace

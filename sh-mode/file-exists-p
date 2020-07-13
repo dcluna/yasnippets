@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: file-exists-p
+# key: fep
+# --
+if [ -f ${1:/path/to/file} ]; then
+  $0
+fi

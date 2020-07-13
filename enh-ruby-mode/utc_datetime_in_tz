@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: utc_datetime_in_tz
+# key: utc_tz
+# --
+ActiveSupport::TimeZone.new("${1:tz}").local_to_utc(${2:timestamp}, ${3:$$(if (yes-or-no-p "Use DST time?") "true" "false")})

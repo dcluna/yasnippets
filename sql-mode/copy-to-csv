@@ -3,4 +3,4 @@
 # key: csvcp
 # expand-env: ((yas-wrap-around-region t))
 # --
-COPY ($0) TO '${1:/path/to/file}' DELIMITER '${2:,}' CSV HEADER;
+${3:$$(pcase (yas-choose-value "server" "client") ("server" "COPY") ("client" "\\\copy"))} ($0) TO '${1:/path/to/file}' DELIMITER '${2:,}' CSV HEADER;

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: gzip-read
+# key: gzr
+# --
+Zlib::GzipReader.open('${1:path.gz}') do |${2:gz}|
+  $0
+end
