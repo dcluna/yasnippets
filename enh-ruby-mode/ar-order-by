@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ar-orderby
+# key: ordb
+# --
+order(${1:attr}: :${2:$$(yas-choose-value "desc" "asc")})
