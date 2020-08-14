@@ -2,6 +2,4 @@
 # name: flipper-enabled
 # key: flpen
 # --
-if Flipper[:${1:feature_name}].enabled?(user)
-  $0
-end
+Flipper[:${1:feature_name}].enabled?(${2:user})
