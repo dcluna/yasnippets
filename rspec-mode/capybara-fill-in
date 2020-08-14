@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: capybara-fill-in
+# key: cpfi
+# --
+find('${1:selector}').fill_in with: '${2:text}'

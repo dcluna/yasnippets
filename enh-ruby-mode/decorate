@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: decorate
+# key: decorate
+# --
+${1:decorator}.${2:$$(yas-choose-value "decorate" "decorate_collection")}($0)

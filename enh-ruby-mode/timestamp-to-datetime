@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: timestamp-to-datetime
+# key: ts2dt
+# --
+Time.at(${1:timestamp}).to_datetime.utc
