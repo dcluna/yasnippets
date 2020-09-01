@@ -1,0 +1,4 @@
+# key: countif
+# name: countif
+# --
+SUM(CASE WHEN ${1:cond} THEN ${2:1} ELSE ${3:0} END)

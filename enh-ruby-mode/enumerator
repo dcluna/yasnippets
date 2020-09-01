@@ -2,6 +2,6 @@
 # name: enumerator
 # key: enumerator
 # --
-Enumerator.new do |${1:yielder}|
+${1:$$(yas-choose-value "Enumerator" "Enumerator::Lazy")}.new do |${2:yielder}|
   $0
 end
