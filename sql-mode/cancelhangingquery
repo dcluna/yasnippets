@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cancelhangingquery
+# key: hangingcancel
+# --
+SELECT pg_cancel_backend(${1:pid});

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: killhangingquery
+# key: hangingkill
+# --
+SELECT pg_terminate_backend(${1:pid});

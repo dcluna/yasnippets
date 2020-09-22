@@ -2,4 +2,4 @@
 # name: rails-raw-sql
 # key: rails-raw-sql
 # --
-ActiveRecord::Base.connection.${1:$$(yas-choose-value "select_all" "exec_query" "execute")}("${2:sql}")
+ActiveRecord::Base.connection.${1:$$(yas-choose-value "select_all" "exec_query" "execute" "query")}("${2:sql}")

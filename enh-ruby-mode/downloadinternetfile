@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: downloadinternetfile
+# key: difile
+# --
+URI.open('${1:http://yoururl}').read

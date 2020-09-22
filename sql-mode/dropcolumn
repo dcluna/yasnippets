@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: dropcolumn
+# key: dropcol
+# --
+ALTER TABLE ${1:table} DROP COLUMN ${2:column};
