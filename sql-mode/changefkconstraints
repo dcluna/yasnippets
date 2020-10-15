@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: changefkconstraints
+# key: changefks
+# --
+ALTER TABLE ${1:table} ${2:$$(yas-choose-value "ENABLE" "DISABLE")} TRIGGER ALL;

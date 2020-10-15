@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: string-join
+# key: strjoin
+# --
+strings.Join(${1:var}, "${2:,}")

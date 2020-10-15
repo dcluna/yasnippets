@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: padstr
+# key: pads
+# --
+${1:$$(yas-choose-value "lpad" "rpad")}(${2:column}::text, ${3:1}, ${4:'0'})

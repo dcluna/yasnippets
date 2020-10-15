@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: zshprofile
+# key: zshprof
+# --
+zmodload zsh/zprof
+  $0 # ~/.zshrc here
+zprof

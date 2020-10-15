@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: zshxtrace
+# key: zshxtrace
+# --
+PS4=$'\\\011%D{%s%6.}\011%x\011%I\011%N\011%e\011'
+exec 3>&2 2>${1:/tmp/zshstart.$$.log}
+setopt xtrace prompt_subst
+
+$0 # zshrc here
+
+unsetopt xtrace
+exec 2>&3 3>&-

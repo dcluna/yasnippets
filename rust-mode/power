@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: power
+# key: pow
+# --
+${1:base}.pow(${2:exp})

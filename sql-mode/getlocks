@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: getlocks
+# key: getlocks
+# --
+select nspname, relname, pg_locks.* from pg_locks join pg_class on (pg_locks.relation=pg_class.oid) join pg_namespace on (pg_class.relnamespace=pg_namespace.oid) and pg_locks.pid = ${1:pid};

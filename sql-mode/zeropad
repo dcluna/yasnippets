@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: zeropad
+# key: zpad
+# --
+to_char(${1:column}::bigint, 'fm${2:$$(s-repeat (read-number "How many digits? ") "0")}')

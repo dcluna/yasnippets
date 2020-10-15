@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: homebrew-dump
+# key: hbdump
+# --
+brew bundle dump --force
