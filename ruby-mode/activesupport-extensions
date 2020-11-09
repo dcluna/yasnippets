@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: activesupport-extensions
+# key: asext
+# --
+require 'active_support'
+require 'active_support/core_ext'

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: alter-column-type
+# key: actype
+# --
+ALTER TABLE ${1:table} ALTER COLUMN ${2:column} TYPE ${3:new_type};

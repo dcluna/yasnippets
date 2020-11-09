@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: count-distinct
+# key: #d
+# --
+select count(distinct ${1:col}) from ${2:table}
+

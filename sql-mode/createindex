@@ -2,4 +2,4 @@
 # name: createindex
 # key: createindex
 # --
-CREATE${1:$$(yas-choose-value " " " UNIQUE")} INDEX${2:$$(yas-choose-value " " " CONCURRENTLY")}${3:$$(yas-choose-value " " " idx_name")} ON ${4:table} (${5:expression});
+CREATE${1:$$(yas-choose-value " " " UNIQUE")} INDEX${2:$$(yas-choose-value " " " CONCURRENTLY")}${3:$$(yas-choose-value " " " idx_name")} ON ${4:table} ${5:$$(yas-choose-value " " "USING GIST" "USING GIN")}(${6:expression});

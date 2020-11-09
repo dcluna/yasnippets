@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: addcolumn
+# key: addcl
+# --
+ALTER TABLE ${1:table_name} ADD COLUMN ${2:new_column_name} ${3:data_type};

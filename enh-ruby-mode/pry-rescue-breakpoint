@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pry-rescue-breakpoint
+# key: pbp
+# --
+Pry.rescue { raise 'rescue-binding.pry' }

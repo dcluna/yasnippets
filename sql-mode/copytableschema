@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: copytableschema
+# key: copyts
+# --
+CREATE TABLE ${1:table} ($0) INHERITS (${2:table_to_copy});
