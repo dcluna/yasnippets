@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: selectpartitions
+# key: partitionsel
+# --
+select inhrelid::regclass from pg_inherits where inhparent = '${1:table_name}'::regclass;

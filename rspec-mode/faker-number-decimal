@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-number-decimal
+# key: fkndec
+# --
+Faker::Number.decimal(l_digits: ${1:2}, r_digits: ${2:3})

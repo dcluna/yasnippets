@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-date-backward
+# key: fkdbw
+# --
+Faker::Date.backward(days: ${1:14})
