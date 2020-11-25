@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arraydistinct
+# key: arrdist
+# --
+ARRAY(select distinct UNNEST(${1:array}))
