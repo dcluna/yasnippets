@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: webrick-local-webserver
+# key: webrickserver
+# --
+ruby -rwebrick -e"WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd, RequestCallback: Proc.new{|req,res| res['Access-Control-Allow-Origin'] = '*' }).start"
