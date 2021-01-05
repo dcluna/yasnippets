@@ -1,0 +1,4 @@
+# key: ivg
+# name: instance-variable-get
+# --
+${1:obj}.instance_variable_get(:@${2:var})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hash-key-value
+# key: hkv
+# --
+${1:hash}[:${2:key}] = ${3:$2}
