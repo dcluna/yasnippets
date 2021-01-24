@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: renametable
+# key: renametable
+# --
+ALTER TABLE ${1:table_name} RENAME TO ${2:new_table_name};

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: sidekiqdelete
+# key: skdel
+# --
+queue = Sidekiq::Queue.new("${1:queue}")
+queue.each do |job|
+  job.delete if job['class'] =~ /${2:class_name}/
+end

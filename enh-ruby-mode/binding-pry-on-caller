@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: binding-pry-on-caller
+# key: bpc
+# --
+binding.pry if caller.any? {|${1:cs}| $1 =~ /${2:method}/ }
