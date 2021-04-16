@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rails-cache-fetch
+# key: rcchf
+# --
+Rails.cache.fetch("${1:key}", expires_in: ${2:5}.${3:minutes}) do
+  $0
+end

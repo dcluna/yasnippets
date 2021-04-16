@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: zoo-read-csv
+# key: zooreadcsv
+# --
+${1:var} <- read.csv.zoo(file = '${2:location.csv}', index.column=${3:1})

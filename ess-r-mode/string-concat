@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: string-concat
+# key: strcat
+# --
+paste(${1:str1}, ${2:str2}, sep = "${3: }")

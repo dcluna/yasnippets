@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: copy-to-table
+# key: cpcsv2tbl
+# --
+\copy ${1:dest_table} FROM '${2:source_csv}' delimiter ',' csv header;

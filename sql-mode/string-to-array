@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: string-to-array
+# key: s2arr
+# --
+string_to_array(${1:strcol}, '${2:delimiter}')

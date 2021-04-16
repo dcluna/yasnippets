@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-find-by
+# key: rfby
+# --
+${1:Model}.${2:$$(yas-choose-value "find_by" "where")}($0)
