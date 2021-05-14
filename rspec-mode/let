@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: let
-# key: let
+# key: slet
 # --
 let(:${1:var_here}) { $0 }

@@ -2,4 +2,4 @@
 # name: letc
 # key: letc
 # --
-let(:${1:var_here}) { create(:${2:$1}$0) }
+${1:$$(yas-choose-value "let" "let!")}(:${2:var_here}) { create(:${3:$2}$0) }

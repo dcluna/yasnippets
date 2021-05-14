@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: memoized-var
+# key: mvar
+# --
+@${1:var} ||= $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: percentile
+# key: percentile
+# --
+percentile_disc(${1:0.5}) within group (order by ${2:attr})

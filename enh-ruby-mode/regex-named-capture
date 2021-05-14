@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: regex-named-capture
+# key: rgxnamed
+# --
+(?<${1:capturename}>$0)
