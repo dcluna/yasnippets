@@ -1,0 +1,4 @@
+# key: writecsv
+# name: writecsv
+# --
+write.csv(${1:dataframe}, '${2:file.csv}')

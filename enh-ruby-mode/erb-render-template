@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: erb-render-template
+# key: erbrt
+# --
+${3:template_path} = Rails.root.join('${1:path/to/template.erb}')
+erb = ERB.new(
+  File.read($3)
+)
+erb.location = [$3.to_s, nil]
+erb.result(${2:binding})

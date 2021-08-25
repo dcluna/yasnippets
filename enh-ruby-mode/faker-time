@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-time
+# key: fktimebd
+# --
+Faker::Time.between_dates(from: ${1:Date.yesterday}, to: ${2:Date.today}, period: :${3:$$(yas-choose-value "all" "day" "night" "morning" "afternoon" "evening" "midnight")}, format: :${4:$$(yas-choose-value "default" "short" "long")})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-date-between
+# key: fkdbetw
+# --
+Faker::Date.between(from: ${1:5.days.ago}, to: ${2:Date.today})
