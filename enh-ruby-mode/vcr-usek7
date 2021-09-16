@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vcr-usek7
+# key: vcrk7
+# --
+VCR.use_cassette('${1:k7name}')

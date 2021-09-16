@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bigquery
+# key: bqapi
+# --
+Google::Cloud::Bigquery.new

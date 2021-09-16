@@ -2,4 +2,4 @@
 # name: activerecord-import
 # key: arimport
 # --
-${1:Model}.import ${2:import_data}, validate: ${3:$$(yas-choose-value "true" "false")}, recursive: ${4:$$(yas-choose-value "true" "false")}, raise_error: ${5:$$(yas-choose-value "true" "false")}, all_or_none: ${6:$$(yas-choose-value "true" "false")}
+${1:Model}.import ${2:import_data}, validate: ${3:$$(yas-choose-value "true" "false")}, recursive: ${4:$$(yas-choose-value "true" "false")}, raise_error: ${5:$$(yas-choose-value "true" "false")}, all_or_none: ${6:$$(yas-choose-value "true" "false")}, batch_size: ${7:1000}
