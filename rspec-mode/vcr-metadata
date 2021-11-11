@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vcr-metadata
+# key: vcrmd
+# --
+vcr: { cassette_name: '$1' ${2:$$(if (equal "compressed" (yas-choose-value '("yml" "compressed")) ) ", serialize_with: :compressed" )} }

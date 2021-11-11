@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: concurrent-ruby-promise-zip-concat
+# key: crpzccat
+# --
+Concurrent::Promises.zip(*${1:promises}).then { |*${2:values}| $2.reduce(&:+)}.value!

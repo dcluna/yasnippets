@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: concurrent-future-delay
+# key: cfdl
+# --
+Concurrent::Promises.delay { $0 }

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: concurrent-ruby-lazy-promise
+# key: crlazyp
+# --
+Concurrent::Promises.delay { $0 }
