@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: defmemoizedblock
+# key: defmb
+# --
+def ${1:method}
+  @$1 ||=
+    begin
+      $0
+    end
+end

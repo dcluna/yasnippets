@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-email
+# key: fkemail
+# --
+Faker::Internet.email
