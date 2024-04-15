@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: refresh-materialized-view
+# key: rfmv
+# --
+REFRESH MATERIALIZED VIEW ${2:$$(yas-choose-value "" "CONCURRENTLY")} ${1:view_name};
