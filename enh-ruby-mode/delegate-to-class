@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: delegate-to-class
+# key: dlgc
+# --
+delegate :${1:method}, to: :class
