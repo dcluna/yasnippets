@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rails-sanitize-sql-literal
+# key: ssqlt
+# --
+ApplicationRecord.sanitize_sql([<<~SQL, ${1:{}}])
+$0
+SQL

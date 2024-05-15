@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-alphanumeric
+# key: fkalpha
+# --
+Faker::Alphanumeric.alphanumeric(number: ${1:5}, min_alpha: ${2:2}, min_numeric: ${3:2})

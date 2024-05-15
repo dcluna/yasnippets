@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-sanitize-sql
+# key: ssql
+# --
+ApplicationRecord.sanitize_sql([${1:query}, ${2:{}}])
