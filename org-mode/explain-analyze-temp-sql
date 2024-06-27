@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: explain-analyze-temp-sql
+# key: eatsql
+# --
+#+name: temp_query_${1:$$(format-time-string "%Y-%m-%d")}-${2:$$(gensym "query")}
+#+header: :engine "postgresql"
+#+header: :dbconnection "${3:$$(yas-choose-value (mapcar 'car sql-connection-alist))}"
+#+begin_src sql
+$0
+#+end_src
+
+#+name: ea_temp_query_$1-$2
+#+header: :engine "postgresql"
+#+header: :dbconnection "$3"
+#+begin_src sql :results file :file "/tmp/ea_temp_query_$1-$2.txt"
+explain analyze <<temp_query_$1-$2>>
+#+end_src
