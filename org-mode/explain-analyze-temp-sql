@@ -5,7 +5,7 @@
 #+name: temp_query_${1:$$(format-time-string "%Y-%m-%d")}-${2:$$(gensym "query")}
 #+header: :engine "postgresql"
 #+header: :dbconnection "${3:$$(yas-choose-value (mapcar 'car sql-connection-alist))}"
-#+begin_src sql
+#+begin_src sql :results file :file "/tmp/results_temp_query_$1-$2.txt"
 $0
 #+end_src
 
