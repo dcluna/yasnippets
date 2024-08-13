@@ -13,5 +13,5 @@ $0
 #+header: :engine "postgresql"
 #+header: :dbconnection "$3"
 #+begin_src sql :results file :file "/tmp/ea_temp_query_$1-$2.txt"
-explain analyze <<temp_query_$1-$2>>
+explain (analyze, verbose, buffers) <<temp_query_$1-$2>>
 #+end_src
