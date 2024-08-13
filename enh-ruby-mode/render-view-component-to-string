@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: render-view-component-to-string
+# key: vcstr
+# --
+ApplicationController.new.render_to_string(${1:component}, layout: false)

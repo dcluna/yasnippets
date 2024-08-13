@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: action-controller-parameters
+# key: acparam
+# --
+ActionController::Parameters.new($0)
