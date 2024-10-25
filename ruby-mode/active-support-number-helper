@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: active-support-number-helper
+# key: numh
+# --
+ActiveSupport::NumberHelper

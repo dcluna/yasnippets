@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: sidekiq-delete-all-queues
+# key: sqkdall
+# --
+Sidekiq::Queue.all.each do |queue|
+  queue.each do |job|
+    job.delete
+  end
+end

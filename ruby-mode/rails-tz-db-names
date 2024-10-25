@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-tz-db-names
+# key: tzdbnames
+# --
+ActiveSupport::TimeZone::MAPPING

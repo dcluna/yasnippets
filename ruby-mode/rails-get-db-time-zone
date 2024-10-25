@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-get-db-time-zone
+# key: dbtz
+# --
+ActiveRecord::Base.connection.select_all("SHOW timezone;").first['TimeZone']

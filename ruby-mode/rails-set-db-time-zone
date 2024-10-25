@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-set-db-time-zone
+# key: dbtz=
+# --
+ActiveRecord::Base.connection.exec_query("SET TIME ZONE '${1:America/Sao_Paulo}'")

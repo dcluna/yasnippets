@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ruby-new-tracer
+# key: ntrace
+# --
+Tracer.trace(${1:obj}) { $0 }
