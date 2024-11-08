@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: active-support-time-zone-mapping
+# key: astzmap
+# --
+ActiveSupport::TimeZone::MAPPING

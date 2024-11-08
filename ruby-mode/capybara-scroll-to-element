@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: capybara-scroll-to-element
+# key: scrtel
+# --
+scroll_to(find('${1:selector}'), align: :${2:$$(yas-choose-value "top" "center" "bottom")})
