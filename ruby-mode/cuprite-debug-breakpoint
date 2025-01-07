@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cuprite-debug-breakpoint
+# key: cudbg
+# --
+page.driver.debug(binding)

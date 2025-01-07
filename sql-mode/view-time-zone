@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: view-time-zone
+# key: tz
+# --
+SHOW timezone;

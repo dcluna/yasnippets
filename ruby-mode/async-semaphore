@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: async-semaphore
+# key: asm
+# --
+${1:semaphore} = Async::Semaphore.new(${2:3})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: letspy
+# key: lspy
+# --
+let(:${1:var}_spy) { spy('${1:$(capitalize yas-text)}') }

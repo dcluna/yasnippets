@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-url-helpers
+# key: urlhelpers
+# --
+Rails.application.routes.url_helpers.${1:some_url_path}()$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: async-barrier
+# key: asb
+# --
+${1:barrier} = Async::Barrier.new

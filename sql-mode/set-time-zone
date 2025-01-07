@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: set-time-zone
+# key: tz=
+# --
+SET TIME ZONE '$0${1:America/Sao_Paulo}';
