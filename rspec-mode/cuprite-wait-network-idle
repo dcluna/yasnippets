@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cuprite-wait-network-idle
+# key: cuwnetidle
+# --
+page.driver.wait_for_network_idle
