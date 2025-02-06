@@ -2,9 +2,9 @@
 # name: temp-sql
 # key: tsql
 # --
-#+name: temp_query_${1:$$(format-time-string "%Y-%m-%d")}-${2:$$(gensym "query")}
+#+name: ${1:$$(format "temp_query_%s-%s" (format-time-string "%Y-%m-%d") (gensym "query"))}
 #+header: :engine "postgresql"
-#+header: :dbconnection "${3:$$(yas-choose-value (mapcar 'car sql-connection-alist))}"
-#+begin_src sql :results file :file "${4:/tmp/results-temp_query_$1_$2.tsv}"
+#+header: :dbconnection "${2:$$(yas-choose-value (mapcar 'car sql-connection-alist))}"
+#+begin_src sql :tangle "${3:/tmp/$1.sql}" :results file :file "${4:/tmp/results-$1.tsv}"
 $0
 #+end_src
