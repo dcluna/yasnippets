@@ -1,0 +1,4 @@
+# key: rbtrexcp
+# name: ruby-new-tracer-exceptions
+# --
+Tracer.trace_exception { $0 }

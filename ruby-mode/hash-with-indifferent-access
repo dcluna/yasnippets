@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hash-with-indifferent-access
+# key: iahash
+# --
+ActiveSupport::HashWithIndifferentAccess.new($0)

@@ -1,0 +1,4 @@
+# key: rbtrcall
+# name: ruby-new-tracer-call
+# --
+Tracer.trace_call { $0 }

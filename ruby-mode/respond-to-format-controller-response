@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: respond-to-format-controller-response
+# key: rtfmt
+# --
+respond_to do |${1:format}|
+  $1.html {$0}
+  $1.turbo_stream {}
+end
