@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: temp-sql-raw-drawer
+# key: trsql
+# --
+#+name: ${1:$$(format "temp_query_%s-%s" (format-time-string "%Y-%m-%d") (gensym "query"))}
+#+header: :engine "postgresql"
+#+header: :dbconnection "${2:$$(yas-choose-value (mapcar 'car sql-connection-alist))}"
+#+begin_src sql :tangle "${3:/tmp/$1.sql}" :results raw drawer
+$0
+#+end_src
