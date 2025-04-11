@@ -1,0 +1,4 @@
+# key: ffotd
+# name: find-files-older-than-days
+# --
+find ${1:./} -type f -mtime +${2:7} ${3:$$(yas-choose-value "" "-delete")}
