@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rails-g-polymorphic-migration
+# key: rgpolymigration
+# --
+rails g migration ${1:MigrationName} ${2:association_name}:references{polymorphic}
