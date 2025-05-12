@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: set-statement-timeout
+# key: sst
+# --
+SHOW statement_timeout;
+SET statement_timeout = '${1:10}min';
+$0
+SET statement_timeout = DEFAULT;

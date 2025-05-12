@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: sidekiq-batch
+# key: skqb
+# --
+batch = Sidekiq::Batch.new
+batch.description = "${1:description}"
+batch.on(:success, ${2:MyCallback}, ${3:args})
+batch.jobs do
+  $0
+end

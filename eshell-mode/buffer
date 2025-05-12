@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: buffer
+# key: bf
+# --
+#<buffer ${1:buffername}>
