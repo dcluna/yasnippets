@@ -13,5 +13,7 @@ $0
 #+header: :engine "postgresql"
 #+header: :dbconnection "$3"
 #+begin_src sql :tangle "/tmp/ea_temp_query_$1-$2.sql" :results file :file "/tmp/ea_temp_query_$1-$2.txt"
-explain (analyze, verbose, buffers) <<temp_query_$1-$2>>
+${4:$$(yas-choose-value "" "DISCARD PLANS;")}
+
+explain (analyze, costs, verbose, buffers) <<temp_query_$1-$2>>
 #+end_src
