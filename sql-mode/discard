@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: discard
+# key: dc
+# --
+DISCARD ${1:$$(yas-choose-value "PLANS" "ALL" "TEMPORARY" "SEQUENCES")};

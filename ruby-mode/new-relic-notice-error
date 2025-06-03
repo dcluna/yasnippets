@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: new-relic-notice-error
+# key: nrexcp
+# --
+NewRelic::Agent.notice_error(${1:error})
