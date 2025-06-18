@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: capybara-wait-for-download
+# key: cpwfd
+# --
+page.driver.browser.downloads.wait do
+  $0
+end
