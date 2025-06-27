@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: blazer-search-query-containing
+# key: blzq
+# --
+\copy (SELECT "blazer_queries".* FROM "blazer_queries" WHERE (statement ilike '%${1:query}$0%')) TO STDOUT DELIMITER ',' CSV HEADER;

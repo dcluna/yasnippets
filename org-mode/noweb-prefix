@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: noweb-prefix
+# key: nowebp
+# --
+:noweb-prefix ${1:no}
