@@ -1,0 +1,4 @@
+# key: tpcl
+# name: tapioca-collection-proxy-for
+# --
+::${1:Model}::PrivateCollectionProxy
