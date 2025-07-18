@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-internet-url
+# key: fkurl
+# --
+Faker::Internet.url
