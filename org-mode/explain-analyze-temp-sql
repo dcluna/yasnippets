@@ -12,7 +12,7 @@ $0
 #+name: ea_temp_query_$1-$2
 #+header: :engine "postgresql"
 #+header: :dbconnection "$3"
-#+begin_src sql :tangle "/tmp/ea_temp_query_$1-$2.sql" :results file :file "/tmp/ea_temp_query_$1-$2.txt"
+#+begin_src sql :tangle "/tmp/ea_temp_query_$1-$2.sql" :noweb-prefix no :results file :file "/tmp/ea_temp_query_$1-$2.txt"
 ${4:$$(yas-choose-value "" "DISCARD PLANS;")}
 
 explain (analyze, costs, verbose, buffers) <<temp_query_$1-$2>>
