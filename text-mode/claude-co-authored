@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: claude-co-authored
+# key: cacl
+# --
+Co-Authored-By: Claude <noreply@anthropic.com>
