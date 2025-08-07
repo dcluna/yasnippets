@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: faker-lorem-paragraph-by-chars
+# key: lorempbc
+# --
+Faker::Lorem.paragraph_by_chars(number: ${1:256}, supplemental: ${2:$$(yas-choose-value "false" "true")})
