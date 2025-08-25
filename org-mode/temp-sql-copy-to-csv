@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: temp-sql-copy-to-csv
+# key: tsqlcsv
+# --
+#+name: ${1:$$(format "temp_query_%s-%s" (format-time-string "%Y-%m-%d") (gensym "query"))}
+#+header: :engine "postgresql"
+#+header: :dbconnection "${2:$$(yas-choose-value (mapcar 'car sql-connection-alist))}"
+#+begin_src sql :tangle "${3:/tmp/$1.sql}" :results raw drawer
+COPY (
+  $0
+) TO STDOUT WITH CSV HEADER \g '${4:/tmp/results-$1.csv}'
+#+end_src

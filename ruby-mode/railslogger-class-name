@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: railslogger-class-name
+# key: clog
+# --
+Rails.logger.${1:$$(yas-choose-value "debug" "info" "warn" "error" "fatal" "unknown")} { "#{self.class.name}#$0" }
