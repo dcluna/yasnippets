@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: active-support-duration
+# key: asd
+# --
+ActiveSupport::Duration.parse("P${1:120}D")
