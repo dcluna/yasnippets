@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: copy-to-csv-multiline
+# key: cpcsv
+# --
+COPY (
+  $0
+) TO STDOUT WITH CSV HEADER \g '${1:/tmp/}${2:query}.csv'
