@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: nix-search
+# key: nix-search
+# --
+nix search nixpkgs $1 > #<buffer $1-nixpkgs>
