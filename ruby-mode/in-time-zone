@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: in-time-zone
+# key: itz
+# --
+Time.use_zone('${1:$$(yas-completing-read "Timezone: " (dcl/yas-timezone-names))}') { $0Time.zone.parse('${2:$$(format-time-string "%Y-%m-%dT%H:%M:%S")}')}
