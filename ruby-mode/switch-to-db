@@ -1,0 +1,4 @@
+# key: dbswitch
+# name: switch-to-db
+# --
+ActiveRecord::Base.establish_connection("${1:$$(getenv (read-envvar-name "DB to connect:"))}")

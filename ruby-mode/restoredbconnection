@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: restoredbconnection
+# key: rdbconn
+# --
+ActiveRecord::Base.establish_connection(ActiveRecord::Base.configurations.configs_for(env_name: Rails.env).first)

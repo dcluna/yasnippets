@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: active-record-connection-db-config
+# key: arcdb
+# --
+ActiveRecord::Base.connection_db_config
